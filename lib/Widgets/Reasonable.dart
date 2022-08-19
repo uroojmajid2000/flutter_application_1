@@ -12,6 +12,7 @@ class Reasonable extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(10.0),
+      
       child: Container(
         width: 380,
         height: 130,
@@ -23,8 +24,10 @@ class Reasonable extends StatelessWidget {
             width: 1,
           ),
         ),
+
         child: Padding(
           padding: const EdgeInsets.all(10.0),
+
           child: Row(
             children: [
 
@@ -92,10 +95,19 @@ class Reasonable extends StatelessWidget {
                         )
                       ]
                     ),
+
                   ],
                 ),
+
               ),
+              
             ],
+
+
+
+
+
+
           ),
         ),
       ),

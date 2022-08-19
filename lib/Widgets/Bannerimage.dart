@@ -17,7 +17,7 @@ class Bannerimage extends StatelessWidget {
 
           child: Image.network(
               'https://images.pexels.com/photos/2820884/pexels-photo-2820884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-              width: 370,
+              width: 360,
               height: 90,
               fit: BoxFit.fill),
         ),

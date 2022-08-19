@@ -136,7 +136,7 @@ class _HomeState extends State<Hometwo> {
           ],
         ),
       ),
-      bottomNavigationBar: Bottomnavbar(),
+      bottomNavigationBar: Bottomnavbar(index: 1,),
     );
   }
 }

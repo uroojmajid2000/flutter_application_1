@@ -5,14 +5,10 @@ import 'package:flutter_application_1/Widgets/Hometwobar.dart';
 
 void main() {
   runApp(MaterialApp(
-initialRoute: '/home',
+    initialRoute: '/home',
     routes: {
       '/': (context) => Home(),
       '/hometwo': (context) => Hometwo(),
-
     },
-
-    // home: Home(),
-    // home: Hometwo(),
   ));
 }

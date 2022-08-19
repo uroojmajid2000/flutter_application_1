@@ -24,6 +24,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0.0,
+        centerTitle: false,
         title: Heading(
             text: 'Financial',
             size: 20,
@@ -74,7 +75,6 @@ class _HomeState extends State<Home> {
                   color: Colors.black),
             ),
             SizedBox(height: 10),
-
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                   Cardtext(
                     textone: 'Van Jiang',
                     percentage: '2.5260%',
-                    textthree: 'text three lorem',
+                    textthree: 'three lorem',
                   ),
                 ],
               ),
@@ -106,10 +106,7 @@ class _HomeState extends State<Home> {
               ],
             ),
 
-
-
             SizedBox(height: 20),
-
             Padding(
               padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
               child: Heading(
@@ -119,26 +116,25 @@ class _HomeState extends State<Home> {
                   color: Colors.black),
             ),
             SizedBox(height: 10),
-
             Column(
               children: [
                 Content(
-                  text: 'Chang Jiang every day of',
+                  text: 'Chang Jiang every day',
                 ),
                 Content(
-                  text: 'Vu Chang every',
+                  text: 'Lorem epsom chang day',
                 ),
                 Content(
-                  text: 'Chang Jiang every day of',
+                  text: 'Chang lorem epsom day',
                 ),
               ],
             ),
           ],
         ),
       ),
-
-      
-      bottomNavigationBar: Bottomnavbar(),
+      bottomNavigationBar: Bottomnavbar(
+        index: 0,
+      ),
     );
   }
 }
